@@ -1,0 +1,5 @@
+Import and use class by class name:
+
+module = __import__(module_name)
+class_ = getattr(module, class_name)
+instance = class_()
